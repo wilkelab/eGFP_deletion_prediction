@@ -20,7 +20,6 @@ def extract_scores(score_filename):
         names.append(name_parts[1])
       
     mean_score = np.mean(all_scores)
-    #print "Mean: ", mean_score
     return names, all_scores
 
 def main():
@@ -53,10 +52,6 @@ def main():
     out.close()
     #out2.close()
 
-    
-    
-    
-    #print score_files
 
 if __name__ == "__main__":
     main()
