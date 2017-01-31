@@ -5,22 +5,33 @@ The directory contains all of the associated data and scripts for this paper.
 Contents:
 
 data/ 
-    This directory contains all features for each deletion analyzed in the paper.
+
+    This directory contains all features for each deletion analyzed in the paper. 
     Contents:
+    
     egfp_functional_data.csv - Contains all functional data for the mutants
     egfp_relax_model_scores.csv - Contains all of the energy scores for all protein mutant models
     egfp_structural_data.csv - Contains all of the structure (WCN, RSA, SS) information for all mutants
 
+
+machine_learning/
+    This directory contains the scripts that were used for the log regression and SVM part of the analysis.
+
+
 plotting_scripts/
+
     This directory contains a script (pca_plots.R) to plot the PCA of the data
     
 r_scripts/
+
     relax_regression_analysis.R - This a script that runs the logistic regression analysis analysis
 
 rsa/
+
     Contains scripts (mac_calc_rsa.py, mac_calc_sa.py) that calculate the Solvent Accessibility (SA) and Relative Solvent Accessibility (RSA) for the pdb 4EUL. It also contains the raw calculated RSA and SA values.
 
 scripts/
+
     This directory contains python scripts used in the analysis
     renumber_pdb.py - A script that renumbers pdb files
     summarize_scores.py - A script that calculates the mean score for each of the designed models

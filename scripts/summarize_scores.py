@@ -24,7 +24,7 @@ def extract_scores(score_filename):
 
 def main():
     #main_dir = "../modeller/rosetta_scoring/" #Directory with score files
-    main_dir = "../modeller/relax/" #Directory with score files
+    main_dir = "../final_models/" #Directory with score files
     #out = open("../data/egfp_model_scores.csv", "w") #File with all of the scores for each model
     out = open("../data/egfp_relax_model_scores.csv", "w") #File with all of the scores for each model
     out.write("mutant,total_score\n")   
