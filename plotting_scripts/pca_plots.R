@@ -5,7 +5,7 @@ library(tidyr)
 library(cowplot)
 library(grid)
 
-sum_data = read.csv("relax_full_egfp_summary_data.csv")
+sum_data = read.csv("../data/relax_full_egfp_summary_data.csv")
 #test_data = sum_data %>% mutate(sheet = SS =="Sheet")
 num_points = nrow(sum_data)
 data = data.frame(Sheet = character())
@@ -134,7 +134,7 @@ combo_plot_ss = plot_grid(p4, p2, nrow = 1, labels = c("A", "B", align = "hv"), 
 combo_plot_b = plot_grid(p1, p2_b, nrow = 1, labels = c("A", "B", align = "hv"), label_size = 20)
 
 #ggsave("mod_pca_plots.pdf", plot = combo_plot_b, height = 5, width = 14, useDingbats = F)
-save_plot("pca_plots.pdf", plot = combo_plot, ncol = 2.4)
+save_plot("../figures/pca_plots.pdf", plot = combo_plot, ncol = 2.4)
 #ggsave("pca_plots_ss.pdf", plot = combo_plot_ss, height = 5, width = 14, useDingbats = F)
 
 #ggsave(pca_variance_plot.pdf", plot = p3, height = 5, width = 7, useDingbats = F)
