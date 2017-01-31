@@ -1,0 +1,16 @@
+"","model_names","Model_AUC"
+"1","AUC_rsa_wcn_mean_score",0.929566563467492
+"2","AUC_rsa_wcn_ss_mean_score",0.922600619195046
+"3","AUC_rsa_wcn_ss",0.920278637770898
+"4","AUC_rsa_wcn",0.876160990712074
+"5","AUC_wcn_mean_score",0.874613003095975
+"6","AUC_mean_score",0.874613003095975
+"7","AUC_wcn_ss",0.871517027863777
+"8","AUC_rsa_ss_mean_score",0.84984520123839
+"9","AUC_ss",0.843653250773994
+"10","AUC_ss_mean_score",0.841331269349845
+"11","AUC_wcn_ss_mean_score",0.841331269349845
+"12","AUC_wcn",0.8328173374613
+"13","AUC_rsa_mean_score",0.830495356037152
+"14","AUC_rsa_ss",0.808049535603715
+"15","AUC_rsa",0.698916408668731

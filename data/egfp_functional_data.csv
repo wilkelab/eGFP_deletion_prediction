@@ -17,7 +17,7 @@ D76_del,tolerated
 K79_del,tolerated
 E132D_D133_del,tolerated
 G138_del,tolerated
-M153_del_A154,tolerated
+M153_del_A154T,tolerated
 A154_del,tolerated
 D155_del,tolerated
 K158_del,tolerated
@@ -61,6 +61,7 @@ D103_del,non-tolerated
 K107_del,non-tolerated
 A110_del,non-tolerated
 E111_del,non-tolerated
+V120_del,non-tolerated
 V120_del_N121D,non-tolerated
 G127_del_I128V,non-tolerated
 L137_del,non-tolerated
