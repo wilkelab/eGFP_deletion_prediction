@@ -25,6 +25,8 @@ plotting_scripts/
 r_scripts/
 
     relax_regression_analysis.R - This a script that runs the logistic regression analysis analysis
+    t_tests.R - This is a script that performs t-test for structural properties
+    model_t_tests.R - This is a script that performs t-test for comparing model AUC distributions
 
 rsa/
 
